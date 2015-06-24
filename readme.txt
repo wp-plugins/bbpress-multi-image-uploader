@@ -38,5 +38,8 @@ Activate it through the 'Plugins' section.
 
 == Changelog ==
 
+= 1.0.1 =
+* Bug: Attachment bug in replies fixed.
+
 = 1.0.0 =
 * First release.

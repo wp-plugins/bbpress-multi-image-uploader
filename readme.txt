@@ -4,7 +4,7 @@ Donate link: http://sharethingz.com
 Tags: bbpress, bbpress media upload, bbpress attachments, attachments, image, upload
 Requires at least: 4.0
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later (of-course)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,10 @@ Activate it through the 'Plugins' section.
 2. Images attached to topics and replies.
 
 == Changelog ==
+
+= 1.0.2 =
+* Bug: Fixed attachment bug on bbpress search template.
+* Bug: Fixed JS bug of removing thumbnail from topic and replies.
 
 = 1.0.1 =
 * Bug: Attachment bug in replies fixed.

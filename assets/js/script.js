@@ -90,7 +90,8 @@ jQuery(document).ready(function() {
 	/**
 	 * Remove attached image by close button.
 	 */
-	jQuery('body').on('click', bbp_uploader_config.bbp_files_queue, function() {
+	jQuery('body').on('click', bbp_uploader_config.bbp_uploader_close, function() {
+		console.log(jQuery(this));
 		jQuery(this).parents(bbp_uploader_config.bbp_img_wrap).remove();
 	});
 

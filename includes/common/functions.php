@@ -195,8 +195,12 @@ if( !function_exists('bbp_uploader_attachments') ) :
 
 	function bbp_uploader_attachments() {
 
-		$reply_id = bbp_get_reply_id();
-		$attachments = bbp_uploader_post_children( $reply_id );
+		if( get_post_type() == 'reply' )
+			$post_id = bbp_get_reply_id();
+		else
+			$post_id = bbp_get_topic_id();
+
+		$attachments = bbp_uploader_post_children( $post_id );
 
 		if( has_action( 'bbp_uploader_attachments_markup' ) ) {
 

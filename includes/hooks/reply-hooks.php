@@ -21,3 +21,8 @@ add_action( 'bbp_edit_reply_post_extras', 'bbp_uploader_reply_created' ); // Whe
  * Previews already added attachments on edit reply screen
  */
 add_action( 'bbp_uploader_reply_img_container', 'bbp_reply_img_container' );
+
+/**
+ * Adds images after content of topic and reply
+ */
+add_action('bbp_theme_after_reply_content', 'bbp_uploader_attachments');

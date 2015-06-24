@@ -3,7 +3,7 @@
 /**
  * Plugin Name: bbPress Multi Image Uploader
  * Description: Allows to upload multiple images in topics and replies in bbPress
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Ankit Gade
  * Author URI: http://sharethingz.com
  * License: GPL2
@@ -68,7 +68,7 @@ if ( in_array( 'bbpress/bbpress.php', apply_filters( 'active_plugins', get_optio
 			private function setup_globals() {
 
 				/* Version */
-				$this->version = '1.0.1';
+				$this->version = '1.0.2';
 
 				// Setup some base path and URL information
 				$this->file       = __FILE__;

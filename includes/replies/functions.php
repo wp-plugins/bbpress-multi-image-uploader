@@ -80,7 +80,7 @@ if ( !function_exists( 'bbp_uploader_reply_created' ) ) {
 			if ( is_numeric( $v ) && wp_attachment_is_image( $v ) ) {
 				wp_update_post( array(
 					'ID' => $v,
-					'post_parent' => $topic_id
+					'post_parent' => $reply_id
 				) );
 			}
 		}
